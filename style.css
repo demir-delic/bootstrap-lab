@@ -8,7 +8,9 @@
 #bg-grey {
     background-color: #EFEFEF;
     padding-top: 65px;
+    padding-bottom: 25px;
 }
+
 
 a {
     color: #ffffff;
@@ -20,7 +22,8 @@ h1 {
 }
 
 h3 {
-    font-size: 1.2em;
+    font-size: 1.1em;
+    font-weight: bold;
     color: #252525;
 }
 
@@ -56,9 +59,26 @@ h3 {
 
 .nav > li > a:active {
     background: none;
-    color: #ffffff;    
+    color: #ffffff;
 }
 
 .navbar-header > a:hover {
-    color: #ffffff;    
+    color: #ffffff;
+}
+
+.btn-primary {
+    color: #252525;
+    background: none;
+    border-radius: 0;
+    border-width: 2px;
+    border-color: #252525;
+}
+
+.thumbnail {
+    background: none;
+    border-style: none;
+}
+
+.caption > a {
+    font-weight: bold;
 }
