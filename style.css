@@ -5,22 +5,23 @@
     padding-bottom: 75px;
 }
 
+#bg-grey {
+    background-color: #EFEFEF;
+    padding-top: 65px;
+}
+
 a {
     color: #ffffff;
-}
-
-a:hover {
-    
-}
-
-.navbar {
-    padding-top: 15px;
-    padding-bottom: 100px;
 }
 
 h1 {
     font-weight: bold;
     font-size: 5em;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #252525;
 }
 
 #download-li {
@@ -33,12 +34,17 @@ h1 {
 }
 
 /* Bootstrap nav overrides*/
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 100px;
+}
 
 .navbar-brand {
     font-size: 1.5em;
     font-weight: bold;
     padding-left: 30px;
 }
+
 .nav > li > a:hover {
     background: none;
     color: #ffffff;
