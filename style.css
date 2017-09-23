@@ -23,9 +23,7 @@ h3 {
 }
 
 #download-li {
-    background: none;
-    color: #ffffff;
-    padding: 14px;
+    padding: 9px 14px;
     border-style: solid;
     border-width: .5px;
     border-color: #ffffff;
@@ -71,8 +69,13 @@ h3 {
     padding-left: 30px;
 }
 
+.nav > li > a {
+    padding: 10px 15px;
+    margin-top: 5px;
+}
+
 .nav > li > a:hover {
-    padding: 14px;
+    padding: 9px 14px;
     border-style: solid;
     border-width: .5px;
     border-color: #ffffff;
@@ -86,6 +89,7 @@ h3 {
 }
 
 .thumbnail > .caption > a.btn-primary {
+    margin-top: 15px;
     color: #252525;
     background: none;
     border-radius: 0;
