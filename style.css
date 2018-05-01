@@ -1,5 +1,5 @@
 #bg-banner-image {
-    background: url(https://blackrockdigital.github.io/startbootstrap-landing-page/img/intro-bg.jpg) no-repeat center;
+    background: url("intro-bg.jpg") no-repeat center;
     background-size: cover;
     color: #ffffff;
     padding-bottom: 75px;
